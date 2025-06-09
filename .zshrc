@@ -106,4 +106,4 @@ alias vim="nvim"
 
 bindkey -s ^f "tmux-sessionizer\n"
 
-eval "$(starship init zsh)"
+eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/tokyonight_storm.omp.json)"
