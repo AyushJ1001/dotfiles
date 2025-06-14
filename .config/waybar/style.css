@@ -17,22 +17,26 @@ window#waybar {
 
 /* ───────────────────────────────────────────────────────────┤ background ├───
 */
-window#waybar > box {
+window#waybar>box {
   background: @main-bg;
-  margin: 3px; /* from 2px */
+  margin: 3px;
+  /* from 2px */
 }
 
 /* ─────────────────────────────────────────────────────────────┤ tooltips ├───
 */
 tooltip {
   background: @main-bg;
-  border: 2.3px solid @main-br; /* from 1.5px */
-  border-radius: 12px; /* from 8px */
+  border: 2.3px solid @main-br;
+  /* from 1.5px */
+  border-radius: 12px;
+  /* from 8px */
 }
 
 tooltip label {
   color: @main-fg;
-  margin: -2.3px 4.5px; /* from -1.5px 3px */
+  margin: -2.3px 4.5px;
+  /* from -1.5px 3px */
 }
 
 /* ──────────────────────────────────────────────────────────────┤ general ├───
@@ -55,7 +59,8 @@ tooltip label {
 #custom-power {
   opacity: 1;
   color: @module-fg;
-  padding: 0 6px; /* from 0 4px */
+  padding: 0 6px;
+  /* from 0 4px */
 }
 
 #custom-left1,
@@ -67,7 +72,8 @@ tooltip label {
 #custom-left7,
 #custom-left8 {
   margin-bottom: 0;
-  text-shadow: -3px 0 3px rgba(0, 0, 0, 0.5); /* from -2px 0 2px */
+  text-shadow: -3px 0 3px rgba(0, 0, 0, 0.5);
+  /* from -2px 0 2px */
 }
 
 #custom-right1,
@@ -76,8 +82,10 @@ tooltip label {
 #custom-right4,
 #custom-right5 {
   margin-bottom: 0;
-  padding-right: 4.5px; /* from 3px */
-  text-shadow: 3px 0 3px rgba(0, 0, 0, 0.5); /* from 2px 0 2px */
+  padding-right: 4.5px;
+  /* from 3px */
+  text-shadow: 3px 0 3px rgba(0, 0, 0, 0.5);
+  /* from 2px 0 2px */
 }
 
 /* ───────────────────────────────────────────────────────┤ theme switcher ├───
@@ -96,7 +104,8 @@ tooltip label {
   color: @workspaces;
   background: @main-bg;
   margin-bottom: 0;
-  padding-left: 3px; /* from 2px */
+  padding-left: 3px;
+  /* from 2px */
 }
 
 #workspaces {
@@ -105,10 +114,13 @@ tooltip label {
 
 #workspaces button {
   color: @module-fg;
-  border-radius: 12px; /* from 8px */
+  border-radius: 12px;
+  /* from 8px */
   box-shadow: none;
-  margin: 3px 0; /* from 2px 0 */
-  padding: 0 3px; /* from 0 2px */
+  margin: 3px 0;
+  /* from 2px 0 */
+  padding: 0 3px;
+  /* from 0 2px */
   transition: none;
 }
 
@@ -121,34 +133,42 @@ tooltip label {
 #workspaces button.active {
   color: @active-fg;
   background: @active-bg;
-  text-shadow: 0 0 3px rgba(0, 0, 0, 0.6); /* from 0 0 2px */
-  box-shadow: 0 0 3px 1.5px rgba(0, 0, 0, 0.4); /* from 0 0 2px 1px */
-  margin: 3px; /* from 2px */
-  padding: 0 9px; /* from 0 6px */
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+  /* from 0 0 2px */
+  box-shadow: 0 0 3px 1.5px rgba(0, 0, 0, 0.4);
+  /* from 0 0 2px 1px */
+  margin: 3px;
+  /* from 2px */
+  padding: 0 9px;
+  /* from 0 6px */
 }
 
 #custom-right1 {
   color: @workspaces;
   background: @main-bg;
-  text-shadow: 4.5px 0 3px rgba(0, 0, 0, 0.4); /* from 3px 0 2px */
+  text-shadow: 4.5px 0 3px rgba(0, 0, 0, 0.4);
+  /* from 3px 0 2px */
   margin-bottom: 0;
 }
 
 /* ──────────────────────────────────────────────────────────┤ temperature ├───
 */
 #custom-paddc {
-  padding-right: 33px; /* from 22px */
+  padding-right: 33px;
+  /* from 22px */
 }
 
 #custom-left2 {
   color: @temperature;
   background: @main-bg;
-  padding-left: 4.5px; /* from 3px */
+  padding-left: 4.5px;
+  /* from 3px */
 }
 
 #custom-temperature {
   background: @temperature;
-  padding: 0 0 0 1.5px; /* from 0 0 0 1px */
+  padding: 0 0 0 1.5px;
+  /* from 0 0 0 1px */
 }
 
 /* ───────────────────────────────────────────────────────────────┤ memory ├───
@@ -156,12 +176,14 @@ tooltip label {
 #custom-left3 {
   color: @memory;
   background: @temperature;
-  padding-left: 4.5px; /* from 3px */
+  padding-left: 4.5px;
+  /* from 3px */
 }
 
 #memory {
   background: @memory;
-  padding: 0 0 0 1.5px; /* from 0 0 0 1px */
+  padding: 0 0 0 1.5px;
+  /* from 0 0 0 1px */
 }
 
 #memory.warning {
@@ -177,7 +199,8 @@ tooltip label {
 #custom-left4 {
   color: @cpu;
   background: @memory;
-  padding-left: 4.5px; /* from 3px */
+  padding-left: 4.5px;
+  /* from 3px */
 }
 
 #cpu {
@@ -186,7 +209,8 @@ tooltip label {
 
 #custom-leftin1 {
   color: @cpu;
-  margin-bottom: -1.5px; /* from -1px */
+  margin-bottom: -1.5px;
+  /* from -1px */
 }
 
 /* ──────────────────────────────────────────────────────────┤ distro icon ├───
@@ -195,35 +219,43 @@ tooltip label {
   color: @distro-bg;
   background: @main-bg;
   text-shadow: none;
-  margin-bottom: -3px; /* from -2px */
-  padding-left: 4.5px; /* from 3px */
+  margin-bottom: -3px;
+  /* from -2px */
+  padding-left: 4.5px;
+  /* from 3px */
 }
 
 #custom-distro {
   color: @distro-fg;
   background: @distro-bg;
-  margin: 0 -1.5px -3px 0; /* from 0 -1px -2px 0 */
-  padding: 0 0 0 4.5px; /* from 0 0 0 3px */
-  text-shadow: 0 0 2.3px rgba(0, 0, 0, 1); /* from 0 0 1.5px */
+  margin: 0 -1.5px -3px 0;
+  /* from 0 -1px -2px 0 */
+  padding: 0 0 0 4.5px;
+  /* from 0 0 0 3px */
+  text-shadow: 0 0 2.3px rgba(0, 0, 0, 1);
+  /* from 0 0 1.5px */
 }
 
 #custom-right2 {
   color: @distro-bg;
   background: @main-bg;
   text-shadow: none;
-  margin-bottom: -3px; /* from -2px */
+  margin-bottom: -3px;
+  /* from -2px */
 }
 
 /* ─────────────────────────────────────────────────────────────────┤ time ├───
 */
 #custom-rightin1 {
   color: @time;
-  margin-bottom: -1.5px; /* from -1px */
+  margin-bottom: -1.5px;
+  /* from -1px */
 }
 
 #idle_inhibitor {
   background: @time;
-  padding: 0 0 0 10.5px; /* from 0 0 0 7px */
+  padding: 0 0 0 10.5px;
+  /* from 0 0 0 7px */
 }
 
 #idle_inhibitor:hover {
@@ -232,8 +264,10 @@ tooltip label {
 
 #clock.time {
   background: @time;
-  margin-left: -3px; /* from -2px */
-  padding: 0 4.5px 0 0; /* from 0 3px 0 0 */
+  margin-left: -3px;
+  /* from -2px */
+  padding: 0 4.5px 0 0;
+  /* from 0 3px 0 0 */
 }
 
 #custom-right3 {
@@ -260,7 +294,8 @@ tooltip label {
 */
 #custom-wifi {
   background: @tray;
-  padding: 0 12px 0 7.5px; /* from 0 8px 0 5px */
+  padding: 0 12px 0 7.5px;
+  /* from 0 8px 0 5px */
 }
 
 #custom-wifi:hover {
@@ -271,7 +306,8 @@ tooltip label {
 */
 #bluetooth {
   background: @tray;
-  padding-right: 7.5px; /* from 5px */
+  padding-right: 7.5px;
+  /* from 5px */
 }
 
 #bluetooth:hover {
@@ -281,7 +317,8 @@ tooltip label {
 /* ────────────────────────────────────────────────────────┤ system update ├───
 */
 #custom-update {
-  padding-right: 12px; /* from 8px */
+  padding-right: 12px;
+  /* from 8px */
   background: @tray;
 }
 
@@ -298,7 +335,8 @@ tooltip label {
 */
 #mpris {
   background: @main-bg;
-  padding: 0 12px 0; /* from 0 8px 0 */
+  padding: 0 12px 0;
+  /* from 0 8px 0 */
 }
 
 #mpris:hover {
@@ -310,7 +348,8 @@ tooltip label {
 #custom-left6 {
   color: @pulseaudio;
   background: @main-bg;
-  padding-left: 4.5px; /* from 3px */
+  padding-left: 4.5px;
+  /* from 3px */
 }
 
 #pulseaudio {
@@ -326,7 +365,8 @@ tooltip label {
 #custom-left7 {
   color: @backlight;
   background: @pulseaudio;
-  padding-left: 3px; /* from 2px */
+  padding-left: 3px;
+  /* from 2px */
 }
 
 #backlight {
@@ -338,7 +378,8 @@ tooltip label {
 #custom-left8 {
   color: @battery;
   background: @backlight;
-  padding-left: 3px; /* from 2px */
+  padding-left: 3px;
+  /* from 2px */
 }
 
 #battery {
@@ -363,17 +404,23 @@ tooltip label {
 #custom-leftin2 {
   color: @battery;
   background: @main-bg;
-  margin-bottom: -1.5px; /* from -1px */
+  margin-bottom: -1.5px;
+  /* from -1px */
 }
 
 #custom-power {
   color: @main-bg;
   background: @power;
-  text-shadow: 0 0 3px rgba(0, 0, 0, 0.6); /* from 0 0 2px */
-  box-shadow: 0 0 3px 1.5px rgba(0, 0, 0, 0.6); /* from 0 0 2px 1px */
-  border-radius: 15px; /* from 10px */
-  margin: 3px 6px 3px 0; /* from 2px 4px 2px 0 */
-  padding: 0 9px 0 13.5px; /* from 0 6px 0 9px */
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+  /* from 0 0 2px */
+  box-shadow: 0 0 3px 1.5px rgba(0, 0, 0, 0.6);
+  /* from 0 0 2px 1px */
+  border-radius: 15px;
+  /* from 10px */
+  margin: 3px 6px 3px 0;
+  /* from 2px 4px 2px 0 */
+  padding: 0 9px 0 13.5px;
+  /* from 0 6px 0 9px */
 }
 
 #custom-power:hover {
@@ -396,7 +443,8 @@ tooltip label {
 
 * {
   font-family: "JetBrainsMono Nerd Font";
-  font-size: 16.5px; /* from 11px */
+  font-size: 16.5px;
+  /* from 11px */
   font-weight: bold;
 }
 
@@ -421,7 +469,8 @@ tooltip label,
 #custom-right3,
 #custom-right4,
 #custom-right5 {
-  font-size: 23.52px; /* from 15.68px */
+  font-size: 23.52px;
+  /* from 15.68px */
 }
 
 /* ─────────────────────────────────────────────────┤ left & right inverse ├───
@@ -429,18 +478,21 @@ tooltip label,
 #custom-leftin1,
 #custom-leftin2,
 #custom-rightin1 {
-  font-size: 24.75px; /* from 16.5px */
+  font-size: 24.75px;
+  /* from 16.5px */
 }
 
 /* ──────────────────────────────────────────────────────────┤ distro icon ├───
 */
 #custom-distro {
-  font-size: 23.4px; /* from 15.6px */
+  font-size: 23.4px;
+  /* from 15.6px */
 }
 
 #custom-left5,
 #custom-right2 {
-  font-size: 25.02px; /* from 16.68px */
+  font-size: 25.02px;
+  /* from 16.68px */
 }
 
 /*
@@ -450,19 +502,24 @@ tooltip label,
 /* ───────────────────────────────────────────────────────────┤ workspaces ├───
 */
 #workspaces button {
-  border-radius: 12px; /* from 8px */
-  padding: 0 3px; /* from 0 2px */
+  border-radius: 12px;
+  /* from 8px */
+  padding: 0 3px;
+  /* from 0 2px */
 }
 
 #workspaces button.active {
-  padding: 0 9px; /* from 0 6px */
+  padding: 0 9px;
+  /* from 0 6px */
 }
 
 /* ─────────────────────────────────────────────────────────┤ power button ├───
 */
 #custom-power {
-  border-radius: 15px; /* from 10px */
-  padding: 0 9px 0 13.5px; /* from 0 6px 0 9px */
+  border-radius: 15px;
+  /* from 10px */
+  padding: 0 9px 0 13.5px;
+  /* from 0 6px 0 9px */
 }
 
 /*
@@ -481,3 +538,25 @@ tooltip label,
 */
 
 @import "animation.css";
+
+/* ──────────────────────────────────────────────────────────┤ calendar tooltip ├───
+   Fix weekday headers size & alignment within the clock module's calendar popup.
+*/
+tooltip calendar,
+tooltip calendar * {
+  /* Use the same monospace font & size as the rest of Waybar to keep cell widths equal */
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  font-size: 16.5px;
+}
+
+/* Make weekday names bold & centered so they align nicely with the date cells */
+tooltip calendar label.day-name {
+  font-weight: bold;
+  min-width: 2.3em;
+  /* ensures equal width for each column */
+}
+
+/* Ensure day numbers share the same min-width for perfect column alignment */
+tooltip calendar label.day-number {
+  min-width: 2.3em;
+}
