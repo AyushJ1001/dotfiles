@@ -9,6 +9,9 @@
 
 #  Aliases 
 # Add aliases here
+alias vim="nvim"
+
+bindkey -s ^f 'tmux-sessionizer\n'
 
 #  This is your file 
 # Add your configurations here
