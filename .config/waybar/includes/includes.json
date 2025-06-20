@@ -1,48 +1,5 @@
 {
     "include": [
-        "/home/ayush/.config/waybar/modules/backlight.jsonc",
-        "/home/ayush/.config/waybar/modules/battery.jsonc",
-        "/home/ayush/.config/waybar/modules/bluetooth.jsonc",
-        "/home/ayush/.config/waybar/modules/cava.jsonc",
-        "/home/ayush/.config/waybar/modules/cliphist.jsonc",
-        "/home/ayush/.config/waybar/modules/clock##alt.jsonc",
-        "/home/ayush/.config/waybar/modules/clock.jsonc",
-        "/home/ayush/.config/waybar/modules/cpu.jsonc",
-        "/home/ayush/.config/waybar/modules/cpuinfo.jsonc",
-        "/home/ayush/.config/waybar/modules/display.jsonc",
-        "/home/ayush/.config/waybar/modules/footer.jsonc",
-        "/home/ayush/.config/waybar/modules/github_hyde.jsonc",
-        "/home/ayush/.config/waybar/modules/github_hyprdots.jsonc",
-        "/home/ayush/.config/waybar/modules/gpuinfo.jsonc",
-        "/home/ayush/.config/waybar/modules/header.jsonc",
-        "/home/ayush/.config/waybar/modules/hyprsunset.jsonc",
-        "/home/ayush/.config/waybar/modules/idle_inhibitor.jsonc",
-        "/home/ayush/.config/waybar/modules/keybindhint.jsonc",
-        "/home/ayush/.config/waybar/modules/language.jsonc",
-        "/home/ayush/.config/waybar/modules/memory.jsonc",
-        "/home/ayush/.config/waybar/modules/mpris.jsonc",
-        "/home/ayush/.config/waybar/modules/network.jsonc",
-        "/home/ayush/.config/waybar/modules/notifications.jsonc",
-        "/home/ayush/.config/waybar/modules/power.jsonc",
-        "/home/ayush/.config/waybar/modules/privacy.jsonc",
-        "/home/ayush/.config/waybar/modules/pulseaudio#microphone.jsonc",
-        "/home/ayush/.config/waybar/modules/pulseaudio.jsonc",
-        "/home/ayush/.config/waybar/modules/sensorsinfo.jsonc",
-        "/home/ayush/.config/waybar/modules/spotify.jsonc",
-        "/home/ayush/.config/waybar/modules/taskbar##custom.jsonc",
-        "/home/ayush/.config/waybar/modules/taskbar##windows.jsonc",
-        "/home/ayush/.config/waybar/modules/taskbar.jsonc",
-        "/home/ayush/.config/waybar/modules/theme.jsonc",
-        "/home/ayush/.config/waybar/modules/tray.jsonc",
-        "/home/ayush/.config/waybar/modules/updates.jsonc",
-        "/home/ayush/.config/waybar/modules/wallchange.jsonc",
-        "/home/ayush/.config/waybar/modules/wbar.jsonc",
-        "/home/ayush/.config/waybar/modules/weather.jsonc",
-        "/home/ayush/.config/waybar/modules/window.jsonc",
-        "/home/ayush/.config/waybar/modules/workspaces##kanji.jsonc",
-        "/home/ayush/.config/waybar/modules/workspaces##roman.jsonc",
-        "/home/ayush/.config/waybar/modules/workspaces.jsonc",
-        "/home/ayush/.config/waybar/modules/custom-distro.jsonc",
         "/home/ayush/.local/share/waybar/modules/image#wallpaper.json",
         "/home/ayush/.local/share/waybar/modules/privacy.json",
         "/home/ayush/.local/share/waybar/modules/tray.json",
@@ -119,12 +76,5 @@
     "wlr/taskbar": {
         "icon-size": 16,
         "icon-size-multiplier": 1.6
-    },
-    "hyprland/workspaces": {
-        "format": "{name}: {icon}",
-        "format-icons": {
-            "active": "\uf192",
-            "default": "\uf111"
-        }
     }
 }
