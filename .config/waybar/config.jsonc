@@ -63,5 +63,8 @@
             "balanced": "",
             "power-saver": ""
         }
+    },
+    "hyprland/workspaces": {
+      "format": "{id}"
     }
 }
